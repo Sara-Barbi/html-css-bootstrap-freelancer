@@ -1,3 +1,22 @@
 .back{
     background-color: aqua;
 }
+.first{
+    background-color: rgb(29, 62, 62);
+    height: 80px;
+}
+.txtwhite{
+    color: azure;
+    line-height: 80px;
+    vertical-align: middle;
+}
+.boot{
+    height: 450px;
+    background-color: rgb(11, 199, 155);
+}
+.portf{
+    height: 150px;
+}
+.mystyl{
+    height: 350px ;
+}
