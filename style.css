@@ -5,6 +5,7 @@
 }
 .back{
     background-color: aqua;
+    height: 100%;
 }
 .first{
     background-color: rgb(29, 62, 62);
@@ -31,4 +32,7 @@
 .verdone{
     background-color: rgb(16, 213, 150);
     color: white;
+}
+.baacc{
+    background-color: rgb(72, 88, 127);
 }
