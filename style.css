@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .back{
-    background-color: aqua;
     height: 100%;
 }
 .ms_yay{
@@ -19,7 +18,6 @@
     vertical-align: middle;
 }
 .boot{
-    height: 450px;
     background-color: rgb(11, 199, 155);
     color: white;
 }
@@ -27,7 +25,7 @@
     height: 150px;
 }
 .mystyl{
-    height: 350px ;
+    height: 300px ;
 }
 .me{
     margin-bottom: 40px;
@@ -61,3 +59,39 @@
     height: 4px;
     vertical-align: middle;
 }
+.ms_white{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.ms_white:hover{
+    color: rgba(255, 255, 255, 0.503);
+}
+.w30{
+    width: 30%;
+}
+.immaggine{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.lo0auto{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

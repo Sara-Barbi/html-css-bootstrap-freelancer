@@ -12,20 +12,20 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light baacc">
         <div class="container">
-          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class=" ms_white" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!--per allineare i li dobbiamo dare tecxt-end-->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                <a class="nav-link active" style="color: white;" aria-current="page" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link _coll" style="color: rgba(255, 255, 255, 0.776);" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Preconnecting</a>
+                <a class="nav-link _coll" style="color: rgba(255, 255, 255, 0.776);" href="#">Preconnecting</a>
               </li>
             </ul>
           </div>
@@ -33,10 +33,10 @@
     </nav> 
     </div>
     <section><!--background-color-->
-        <div class="row boot"> 
+        <div class="row boot py-4"> 
             <div class="col-12 text-center">
-                <img src="" alt="">
-                <h2> START BOOTSTRAP</h2>
+                <img class="w30"  src="./bootstrap_freelancer/img/avatar.svg" alt="">
+                <h1> START BOOTSTRAP</h1>
                 <div class="ms_stile">
                     <i class="bi bi-star-fill"></i> <!--after: before: una lunghezza, altezza, vertical align middle,-->
                 </div>
@@ -57,30 +57,35 @@
             
             <div class="row g-2 me row-cols-md-2 row-cols-lg-3"> <!--come si fa a creare spazi tra le colonne? cerca su boostrap gutter. la x va nell'asse delle x se non indici x e y crea uno spazio in tutti i lati. in questo caso abbiamo un background in col. non va bene, va dato al figlio.-->
                 <div class="col-12 mystyl col-md-6 col-lg-4"> <!--<p sta per padding-->
-                    <div class="p-3 back"></div>
+                    <div class="back"><img class="immaggine" src="./bootstrap_freelancer/img/cabin.png" alt=""></div>
                 </div>
                 <div class="col-12 mystyl col-md-6 col-lg-4">
-                    <div class="p-3 back" ></div><!--border radious-->
+                    <div class="back"><img class="immaggine" src="./bootstrap_freelancer/img/cake.png" alt=""></div><!--border radious-->
                 </div>
                 <div class="col-12 mystyl col-md-6 col-lg-4"><!--<p sta per padding-->
-                    <div class="p-3 back"></div>
+                    <div class="back"><img class="immaggine" src="./bootstrap_freelancer/img/circus.png" alt=""></div>
                 </div>
                 <div class="col-12 mystyl col-md-6 col-lg-4">
-                    <div class="p-3 back" ></div>
+                    <div class="back" ><img class="immaggine" src="./bootstrap_freelancer/img/game.png" alt=""></div>
                 </div>
                 <div class="col-12 mystyl col-md-6 col-lg-4"><!--<p sta per padding-->
-                    <div class="p-3 back"></div>
+                    <div class="back"><img class="immaggine" src="./bootstrap_freelancer/img/safe.png" alt=""></div>
                 </div>
                 <div class="col-12 mystyl col-md-6 col-lg-4">
-                    <div class="p-3 back" ></div>
+                    <div class="back" ><img class="immaggine" src="./bootstrap_freelancer/img/submarine.png" alt=""></div>
                 </div>         
             </div>          
         </div>    
             
             <div class="row verdone pt-4 pb-3">
                 <div class="row">
-                    <h1 class="col-12 text-center"> ABOUT </h1>
-                    <div class="col-12 text-center">simbolino</div>
+                    <div class="col-12 text-center"> 
+                        <h1>ABOUT</h1>
+                        <div class="ms_stile">
+                            <i class="bi bi-star-fill"></i>
+                        </div>   
+                    </div>
+                
                 </div>
                 <div class="row d-flex justify-content-center text-start">
                     <div class="col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odio nobis cum eligendi aliquam dolorem dolorum quaerat ex consequatur enim! Ullam asperiores maxime ipsam obcaecati earum ea laudantium eius tenetur?</div>
@@ -92,12 +97,35 @@
             </div>
             
             
-            <div class="row"> <!--form-->
+            <div class="row text-center"> <!--form-->
                 <h1 class="col-12 mt-4 mb-3 text-center">CONTACT ME</h1>
-                <div class="col-12 mb-3 text-center">simbolo</div>
+                <div class="ms_stile_">
+                    <i class="bi bi-star-fill "></i>
+                </div>     
             </div>
-            <div class="input-group input-group-lg">
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg "  placeholder="Name">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-8 lo0auto">
+                        <div class="input-group col-8">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg "  placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-8 lo0auto">
+                        <div class="input-group col-8">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg "  placeholder="Email Access">
+                        </div>
+                    </div>
+                    <div class="col-8 lo0auto">
+                        <div class="input-group col-8">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg "  placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="col-8 lo0auto">
+                        <div class="input-group">
+                            <textarea class="form-control" placeholder="Message" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
             </div>
     </main>
     <footer>
