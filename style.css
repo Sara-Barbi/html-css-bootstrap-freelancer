@@ -11,6 +11,7 @@
 }
 .first{
     height: 80px;
+    background-color: rgb(29, 62, 62);
 }
 .txtwhite{
     color: azure;
@@ -78,6 +79,33 @@
 .lo0auto{
     margin: 0 auto;
 }
+._ms{
+    color: white;
+    font-size: 8px;
+    border-color:white;
+}
+._ms_minh{
+    min-height: 100px;
+}
+.splendidgreen{
+    color: white;
+    background-color: rgb(7, 196, 98);
+    border: none;
+}
+.questicolori{
+    color: white;
+}
+.seguici i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+
+}
+
+
 
 
 
