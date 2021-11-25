@@ -105,6 +105,11 @@
 .sizze{
     font-size: 8px;
 }
+._ms_bordo{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
 
 
 
