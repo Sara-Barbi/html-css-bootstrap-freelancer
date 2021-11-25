@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .back{
-    height: 100%;
+    width: 100%;
 }
 .ms_yay{
     background-color: rgb(29, 62, 62);
@@ -25,9 +25,6 @@
 .portf{
     height: 150px;
 }
-.mystyl{
-    height: 300px ;
-}
 .me{
     margin-bottom: 40px;
 }
@@ -45,7 +42,8 @@
     content: "";
     display: inline-block;
     background-color: white;
-    width: 80px;
+    width: 100px;
+    border-radius: 2px;
     height: 4px;
     vertical-align: middle;
 }
@@ -56,8 +54,9 @@
     content: "";
     display: inline-block;
     background-color: rgb(3, 3, 3);
-    width: 80px;
+    width: 100px;
     height: 4px;
+    border-radius: 2px;
     vertical-align: middle;
 }
 .ms_white{
